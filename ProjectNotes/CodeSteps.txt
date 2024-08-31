@@ -1,0 +1,48 @@
+Step 1:- Open VSCode
+Step 2:-create folder name -- "frontend"
+            Install Vite in folder "frontend"
+Step 3:- Open VSCode terminal and write " npm create vite"  . then "enter"  .....
+step 4:- choose suitable language
+step 5:- Install npm(node package manager) with express.js and axios;-  "npm install express axios"   ,,,,, then "enter"
+step 6:- create backend folder name :- "backend" or "server"
+step 7:- open backend terminal and write "npm init -y",,, then enter..
+stem 8:- install some important package like :- express , mongoose , nodemon , bcrypt , jsonwebtoken , cors , dotenv , cookie-parser ,,,,,, then enter.
+step 9:- Define packages:-
+            a)react-router-dom :-
+            b)axios:-
+            c)mongoose:-
+            d)express:-
+            e)nodemon:-
+            f)bcrypt:-
+            g)jsonwebtoken(jwt):-
+            h)cors :-
+            i)dotenv:- it is used to config env file to index.js file . 
+            j)cookie-parser:-
+
+Step 10:- open server/package.json and write to add "start" scripts and add some more in package.json like "type".
+                    "name": "server",
+                    "version": "1.0.0",
+                    "description": "",
+                    "main": "index.js",
+                    "type": "module",    --------------------------------------------------add this
+                    "scripts": {
+                        "test": "echo \"Error: no test specified\" && exit 1",
+                        "start": "nodemon index.js"    ------------------------------------ and this
+                    },
+
+Step 11:-Create index.js file on server folder and open
+Step 12:- Write code on index.js file :
+            a)import express , after importing the express return function , the fuction call after importing express..
+                    -----------const express require("express")
+                    -----------const app = express();
+            b)then Set PORT before set PORT we create ".env" file in server folder and write it down "PORT = 3000"
+            c)we import package "dotenv" insite the "index.js" file.
+                        ---------import dotenv from 'dotenv';
+                        ---------dotenv.config()
+            d)then set Port.
+                    -------------const PORT = process.env.PORT || 3000;
+                    -------------app.listen(PORT , ()=>{
+                                console.log(`Listening Port  &{PORT}`)
+                    })
+            Now PORT is ready we can check that open terminal and write "npm start"
+            

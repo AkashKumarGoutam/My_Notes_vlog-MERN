@@ -1,0 +1,23 @@
+the server side notes
+
+1. create a folder which name is Server 
+2. install express mongoose nodemon
+    cmd:- npm install express mongoose nodemon bcrypt jsonwebtoken cors dotenv cookie-parser
+           - enter
+3. express:- Express.js, or simply Express, is a back end web
+             application framework for building RESTful APIs with Node.js,
+             released as free and open-source software under the MIT License.
+             It is designed for building web applications and APIs. It has been
+             called the de facto standard server framework for Node.js. 
+4. Mongoose:- Mongoose is a JavaScript object-oriented programming library that
+             creates a connection between MongoDB and the Node.js JavaScript runtime
+             environment. It provides a straightforward, schema-based solution to model application data. 
+5. Nodemon:-Nodemon is a command-line tool that helps with the speedy development of Node. js applications. 
+            It monitors your project directory and automatically restarts your node application when it 
+            detects any changes.
+
+  Question 
+  a) Difference Between MongoDB Vs Mongoose?
+  b) Difference Between Nodejs Vs Nodemon ?
+
+6. After the installation we will create file in the server the name is index.js .
