@@ -15,6 +15,7 @@ import Mapping from "./components/All_topic_Component/reactTopics/Mapping";
 import ConditionalRouting from "./components/All_topic_Component/reactTopics/ConditionalRouting";
 import DefineReact from './components/All_topic_Component/reactTopics/DefineReact';
 import ProtectedRoute from "./components/ProtectedRoute";
+import ReactjsCoursesVideos from "./components/VideoComponents/Reactjs/ReactjsCoursesVideos";
 
 function App() {
   const location = useLocation();
@@ -42,6 +43,9 @@ function App() {
          <Route path="/conditional-routing" element={<ProtectedRoute><ConditionalRouting/></ProtectedRoute>}/>
          <Route path="/define-react" element={<ProtectedRoute><DefineReact/></ProtectedRoute>}/>
 
+
+        {/* video routes*/}
+        <Route path="/reactjs-video" element={<ReactjsCoursesVideos/>}/>
 
          
 

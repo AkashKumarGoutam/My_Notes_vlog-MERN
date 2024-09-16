@@ -1,5 +1,5 @@
 import express from 'express'
-import bcryt from 'bcrypt'
+import bcrypt from 'bcrypt'
 const router = express.Router();
 import { User } from '../models/User.js';
 import jwt from 'jsonwebtoken';
@@ -49,7 +49,7 @@ router.post('/signin', async (req,res)=>{
         return res.json({message: "User is not registerd"})
     }
 
-    const validPassword = await bcryt.compare(password , user.password)
+    const validPassword = await bcrypt.compare(password , user.password)
     if(!validPassword){
         return res.json({message : "password is Incorrect"})
     }

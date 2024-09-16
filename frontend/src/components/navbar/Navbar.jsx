@@ -60,7 +60,7 @@ function Navbar() {
             <Link to='/dashboard' className="hover:text-white">Dashboard</Link>
             <Link to='/about' className="hover:text-white">About</Link>
             <Link to='/gallary' className="hover:text-white">Gallary</Link>
-            <Link to='/contact' className="hover:text-white">Contact Us</Link>
+            <Link to='/contact' className="hover:text-white">Ask Q</Link>
             <button className="hover:text-white" onClick={handleLogout}>LogOut</button>
             </div>
           </div>
